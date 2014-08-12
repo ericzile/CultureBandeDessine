@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sydeem.girafe.culturebandedessine" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <uses-permission android:name="android.permission.INTERNET" />
+        <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+        <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+        <uses-permission android:name="android.permission.VIBRATE" />
+
+        <activity
+            android:name=".loginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <uses-permission android:name="android.permission.INTERNET" />
+                <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ListeActivity"
+            android:label="@string/title_activity_liste" >
+        </activity>
+        <activity
+            android:name=".RatinActivity"
+            android:label="@string/title_activity_ratin" >
+        </activity>
+        <activity
+            android:name=".PubliciteActivity"
+            android:label="@string/title_activity_publicite" >
+        </activity>
+        <activity
+            android:name=".QuestionActivity"
+            android:label="@string/title_activity_question" >
+        </activity>
+        <activity
+            android:name=".PubliciteAutreActivity"
+            android:label="@string/title_activity_publicite_autre" >
+        </activity>
+        <activity
+            android:name=".ResultatActivity"
+            android:label="@string/title_activity_resultat"
+            android:uiOptions="splitActionBarWhenNarrow" >
+        </activity>
+    </application>
+
+</manifest>
