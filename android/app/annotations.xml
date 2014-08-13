@@ -1,0 +1,5 @@
+<root>
+    <item name='android.app.ListActivity'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+</root>

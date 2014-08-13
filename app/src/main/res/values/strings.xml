@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CultureBD</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="titre">Titre Quizz</string>
+    <string name="questions">Êtes-vous incollable sur le monde animal ? Les cris des animaux, leurs femelles, leur zone géographique, leur ressemblance, leur alimentation… C’est l’heure de tester votre culture générale avec ce quizz entièrement consacré aux animaux !</string>
+
+    <!-- Menus -->
+    <string name="action_settings">Paramètres</string>
+    <string name="action_quit">Quitter</string>
+    <string name="action_about">A propos..</string>
+    <string name="action_share">Partager</string>
+    <string name="action_restart">Rejouer</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="title_activity_liste">Liste des Quiz</string>
+
+    <!-- Taps et filtres de recherche -->
+    <string-array name="tags_array">
+        <item>Niveau de difficulté</item>
+        <item>Public</item>
+        <item>Origine</item>
+        <item>Durée</item>
+    </string-array>
+    <string-array name="difficulte_array">
+        <item>Facile</item>
+        <item>Moyen</item>
+        <item>Difficile</item>
+    </string-array>
+    <string-array name="public_array">
+        <item>Au moins 6ans</item>
+        <item>Au moins 9ans</item>
+        <item>Au moins 12ans</item>
+        <item>Au moins 15ans</item>
+        <item>Adultes</item>
+    </string-array>
+    <string-array name="origine">
+        <item> BD </item>
+        <item> Comics </item>
+        <item> Manga </item>
+    </string-array>
+    <string-array name="duree_array">
+        <item> 5min </item>
+        <item> 10min </item>
+        <item> 15min </item>
+        <item> 20min </item>
+        <item> 30min </item>
+    </string-array>
+
+    <!-- Couleurs utilisées -->
+    <color name="rouge">#d01315</color>
+
+    <!-- Polices utilisées -->
+    <string name="police">Yanone Kaffeesatz</string>
+    <string name="tags_spinner_tittle"> tags</string>
+    <string name="filtre_spinner_tittle"> Faite votre choix</string>
+    <string name="title_activity_ratin">Meilleurs Scores</string>
+    <string name="start"> Commencer </string>
+    <string name="title_activity_publicite">Publicite</string>
+    <string name="title_activity_question">Quizz</string>
+    <string name="title_activity_publicite_autre">Publicite</string>
+    <string name="title_activity_resultat">Resultats</string>
+
+    <!--  NetworkActivity -->
+    <string name="page_title">Newest StackOverflow questions tagged \'android\'</string>
+    <string name="updated">Last updated:</string>
+    <string name="lost_connection">Lost connection.</string>
+    <string name="wifi_connected">Wi-Fi reconnected.</string>
+    <string name="connection_error">Unable to load content. Check your network connection.</string>
+    <string name="xml_error">Error parsing XML.</string>
+
+</resources>
