@@ -1,5 +1,6 @@
 package com.sydeem.girafe.culturebandedessine;
 
+import android.app.ListActivity;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.graphics.Color;
@@ -46,12 +47,12 @@ public class ListeActivity extends ActionBarActivity {
     private List<Movie> movieList = new ArrayList<Movie>();
     private ListView listView;
     private CustomListAdapter adapter;
+    private Intent detail = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_liste);
-
         spinner1 = (Spinner)findViewById(R.id.tag_spinner);
         spinner2 = (Spinner)findViewById(R.id.filtre_spinner);
 
@@ -72,6 +73,18 @@ public class ListeActivity extends ActionBarActivity {
         listView = (ListView) findViewById(R.id.list);
         adapter = new CustomListAdapter(this, movieList);
         listView.setAdapter(adapter);
+        listView.setOnItemClickListener( new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                detail = new Intent(ListeActivity.this,QuestionActivity.class);
+                detail.putExtra("title",movieList.get(position).getTitle());
+                detail.putExtra("genre",movieList.get(position).getGenre());
+                detail.putExtra("image",movieList.get(position).getThumbnailUrl());
+                detail.putExtra("releaseYear",movieList.get(position).getYear());
+                detail.putExtra("rating",movieList.get(position).getRating());
+                startActivity(detail);
+            }
+        });
 
         pDialog = new ProgressDialog(this);
         // Showing progress dialog before making http request
@@ -135,6 +148,8 @@ public class ListeActivity extends ActionBarActivity {
         // Adding request to request queue
         AppController.getInstance().addToRequestQueue(movieReq);
 
+
+
     }
 
     @Override
@@ -179,14 +194,6 @@ public class ListeActivity extends ActionBarActivity {
             }
 
 
-        }
-
-        public static class ViewHolder {
-            public TextView titleView;
-            public TextView publisheddate;
-            public TextView creator;
-            public TextView DescriptionView;
-            public ImageView thumbnail;
         }
         @Override
         public boolean onOptionsItemSelected(MenuItem item) {

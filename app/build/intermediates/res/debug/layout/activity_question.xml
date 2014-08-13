@@ -18,6 +18,16 @@
         android:layout_height="wrap_content"
         android:id="@+id/titre_quiz" />
     <TextView
+        android:id="@+id/genre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textStyle="italic"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/titre_quiz"
+        android:fontFamily="@string/police"
+        android:textSize="20dp"/>
+    <TextView
         android:id="@+id/question_quiz"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -25,10 +35,10 @@
         android:textStyle="bold"
         android:gravity="center_horizontal"
         android:text="@string/questions"
-        android:layout_below="@+id/titre_quiz"
+        android:layout_below="@+id/barner"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="62dp" />
+        android:layout_marginTop="20dp" />
 
     <Button
         android:layout_width="wrap_content"
@@ -42,6 +52,12 @@
         android:id="@+id/button_next"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/barner"
+        android:layout_width="fill_parent"
+        android:scaleType="fitXY"
+        android:layout_height="150dp"
+        android:layout_marginTop="60dp"/>
 
 </RelativeLayout>
 <!-- From: file:/C:/Users/ericzile/AndroidStudioProjects/CultureBandeDessine/app/src/main/res/layout/activity_question.xml -->

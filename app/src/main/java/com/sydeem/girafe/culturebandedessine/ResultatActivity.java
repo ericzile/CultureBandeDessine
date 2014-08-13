@@ -25,12 +25,12 @@ public class ResultatActivity extends ActionBarActivity {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.resultat, menu);
         // ShareActionProvider
-        MenuItem itemProvider = menu.findItem(R.id.action_share);
+      /*  MenuItem itemProvider = menu.findItem(R.id.action_share);
         ShareActionProvider mShareActionProvider = (ShareActionProvider) itemProvider.getActionProvider();
         Intent intent = new Intent(Intent.ACTION_SEND);
         intent.setType("text/plain");
-        intent.putExtra(Intent.EXTRA_TEXT, "Message");
-        mShareActionProvider.setShareIntent(intent);
+        intent.putExtra(Intent.EXTRA_TEXT, "Message");*/
+       // mShareActionProvider.setShareIntent(intent);
         return true;
     }
 
