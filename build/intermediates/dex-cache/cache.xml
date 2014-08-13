@@ -2,6 +2,12 @@
 <pre-dex-items>
 
     <item
+        dex="C:\Users\ericzile\AndroidStudioProjects\CultureBandeDessine\app\build\intermediates\pre-dexed\debug\volley-e540257216f0b3684caf4626e1dd68f7ddd0f03d.jar"
+        jar="C:\Users\ericzile\AndroidStudioProjects\CultureBandeDessine\app\libs\volley.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c"/>
+    <item
         dex="C:\Users\ericzile\AndroidStudioProjects\CultureBandeDessine\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-41aa72239668e5dee30872243c722d207ac49547.jar"
         jar="C:\Users\ericzile\Documents\adt-bundle-windows\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
         jumboMode="false"

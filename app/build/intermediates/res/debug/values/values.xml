@@ -157,10 +157,23 @@
     <color name="abc_search_url_text_normal">#7fa87f</color>
     <color name="abc_search_url_text_pressed">@android:color/black</color>
     <color name="abc_search_url_text_selected">@android:color/black</color>
+    <!-- From: file:/C:/Users/ericzile/AndroidStudioProjects/CultureBandeDessine/app/src/main/res/values/colors.xml -->
+    <eat-comment />
+
+    <color name="genre">#666666</color>
+    <color name="list_divider">#d9d9d9</color>
+    <color name="list_row_end_color">#ffffff</color>
+    <color name="list_row_hover_end_color">#ebeef0</color>
+    <color name="list_row_hover_start_color">#ebeef0</color>
+    <color name="list_row_start_color">#ffffff</color>
     <!-- From: file:/C:/Users/ericzile/AndroidStudioProjects/CultureBandeDessine/app/src/main/res/values/strings.xml -->
     <eat-comment />
 
     <color name="rouge">#d01315</color>
+    <!-- From: file:/C:/Users/ericzile/AndroidStudioProjects/CultureBandeDessine/app/src/main/res/values/colors.xml -->
+    <eat-comment />
+
+    <color name="year">#888888</color>
     <!-- From: file:/C:/Users/ericzile/AndroidStudioProjects/CultureBandeDessine/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
     <eat-comment />
 
@@ -605,6 +618,16 @@
     <item name="dialog_fixed_height_minor" type="dimen">100%</item>
     <item name="dialog_fixed_width_major" type="dimen">320dp</item>
     <item name="dialog_fixed_width_minor" type="dimen">320dp</item>
+    <!-- From: file:/C:/Users/ericzile/AndroidStudioProjects/CultureBandeDessine/app/src/main/res/values/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="genre">13dip</dimen>
+    <dimen name="rating">15dip</dimen>
+    <dimen name="title">17dp</dimen>
+    <dimen name="year">12dip</dimen>
+    <!-- From: file:/C:/Users/ericzile/AndroidStudioProjects/CultureBandeDessine/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <eat-comment />
+
     <item name="action_bar_activity_content" type="id"/>
     <item name="action_menu_divider" type="id"/>
     <item name="action_menu_presenter" type="id"/>
