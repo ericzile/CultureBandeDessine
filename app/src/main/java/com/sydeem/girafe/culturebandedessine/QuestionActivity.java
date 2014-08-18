@@ -77,7 +77,7 @@ public class QuestionActivity extends ActionBarActivity {
     }
 
     public void next_quizClick (View view){
-        Intent i = new Intent(getApplicationContext(), PubliciteAutreActivity.class);
+        Intent i = new Intent(getApplicationContext(), QuizActivity.class);
         startActivity(i);
     }
 }

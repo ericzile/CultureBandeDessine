@@ -978,7 +978,7 @@ containing a value of this type.
         public static final int settings=0x7f02006e;
     }
     public static final class id {
-        public static final int action_about=0x7f09005f;
+        public static final int action_about=0x7f090066;
         public static final int action_bar=0x7f09001c;
         public static final int action_bar_activity_content=0x7f090014;
         public static final int action_bar_container=0x7f09001b;
@@ -990,18 +990,18 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f090015;
         public static final int action_menu_presenter=0x7f090016;
         public static final int action_mode_close_button=0x7f090024;
-        public static final int action_next=0x7f09005e;
-        public static final int action_quit=0x7f090060;
-        public static final int action_restart=0x7f090062;
-        public static final int action_settings=0x7f09005d;
-        public static final int action_share=0x7f090061;
+        public static final int action_next=0x7f090065;
+        public static final int action_quit=0x7f090067;
+        public static final int action_restart=0x7f090069;
+        public static final int action_settings=0x7f090064;
+        public static final int action_share=0x7f090068;
         public static final int activity_chooser_view_content=0x7f090025;
         public static final int always=0x7f09000f;
         public static final int barner=0x7f09004c;
         public static final int beginning=0x7f09000a;
-        public static final int bloc1=0x7f09004e;
-        public static final int bloc2=0x7f090052;
-        public static final int bloc3=0x7f090056;
+        public static final int bloc1=0x7f090053;
+        public static final int bloc2=0x7f090057;
+        public static final int bloc3=0x7f09005b;
         public static final int button=0x7f090047;
         public static final int button_next=0x7f09004d;
         public static final int button_resultat=0x7f090048;
@@ -1036,18 +1036,23 @@ containing a value of this type.
         public static final int none=0x7f090009;
         public static final int normal=0x7f090000;
         public static final int password=0x7f090044;
-        public static final int points1=0x7f09004f;
-        public static final int points2=0x7f090053;
-        public static final int points3=0x7f090057;
+        public static final int points1=0x7f090054;
+        public static final int points2=0x7f090058;
+        public static final int points3=0x7f09005c;
         public static final int progress_circular=0x7f090018;
         public static final int progress_horizontal=0x7f090019;
-        public static final int pseudo1=0x7f090051;
-        public static final int pseudo2=0x7f090055;
-        public static final int pseudo3=0x7f090059;
+        public static final int pseudo1=0x7f090056;
+        public static final int pseudo2=0x7f09005a;
+        public static final int pseudo3=0x7f09005e;
         public static final int question_quiz=0x7f09004b;
         public static final int radio=0x7f09002f;
-        public static final int rating=0x7f09005b;
-        public static final int releaseYear=0x7f09005c;
+        public static final int radio0=0x7f090050;
+        public static final int radio1=0x7f090051;
+        public static final int radio2=0x7f090052;
+        public static final int radioGroup1=0x7f09004f;
+        public static final int rating=0x7f090062;
+        public static final int ratingBar1=0x7f09005f;
+        public static final int releaseYear=0x7f090063;
         public static final int search=0x7f09003c;
         public static final int search_badge=0x7f090032;
         public static final int search_bar=0x7f090031;
@@ -1067,10 +1072,12 @@ containing a value of this type.
         public static final int submit_area=0x7f090039;
         public static final int tabMode=0x7f090002;
         public static final int tag_spinner=0x7f09003d;
-        public static final int temps1=0x7f090050;
-        public static final int temps2=0x7f090054;
-        public static final int temps3=0x7f090058;
-        public static final int thumbnail=0x7f09005a;
+        public static final int temps1=0x7f090055;
+        public static final int temps2=0x7f090059;
+        public static final int temps3=0x7f09005d;
+        public static final int textResult=0x7f090060;
+        public static final int textView1=0x7f09004e;
+        public static final int thumbnail=0x7f090061;
         public static final int title=0x7f09002b;
         public static final int titre_quiz=0x7f090049;
         public static final int top_action_bar=0x7f090020;
@@ -1111,18 +1118,20 @@ containing a value of this type.
         public static final int activity_publicite=0x7f03001a;
         public static final int activity_publicite2=0x7f03001b;
         public static final int activity_question=0x7f03001c;
-        public static final int activity_ratin=0x7f03001d;
-        public static final int activity_resultat=0x7f03001e;
-        public static final int list_row=0x7f03001f;
-        public static final int support_simple_spinner_dropdown_item=0x7f030020;
+        public static final int activity_quiz=0x7f03001d;
+        public static final int activity_ratin=0x7f03001e;
+        public static final int activity_resultat=0x7f03001f;
+        public static final int list_row=0x7f030020;
+        public static final int support_simple_spinner_dropdown_item=0x7f030021;
     }
     public static final class menu {
         public static final int liste=0x7f0e0000;
         public static final int publicite=0x7f0e0001;
         public static final int publicite_autre=0x7f0e0002;
         public static final int question=0x7f0e0003;
-        public static final int ratin=0x7f0e0004;
-        public static final int resultat=0x7f0e0005;
+        public static final int quiz=0x7f0e0004;
+        public static final int ratin=0x7f0e0005;
+        public static final int resultat=0x7f0e0006;
     }
     public static final class string {
         public static final int abc_action_bar_home_description=0x7f0c0000;
@@ -1175,13 +1184,14 @@ containing a value of this type.
         public static final int title_activity_publicite=0x7f0c002f;
         public static final int title_activity_publicite_autre=0x7f0c0030;
         public static final int title_activity_question=0x7f0c0031;
-        public static final int title_activity_ratin=0x7f0c0032;
-        public static final int title_activity_resultat=0x7f0c0033;
-        public static final int title_activity_settings=0x7f0c0034;
-        public static final int titre=0x7f0c0035;
-        public static final int updated=0x7f0c0036;
-        public static final int wifi_connected=0x7f0c0037;
-        public static final int xml_error=0x7f0c0038;
+        public static final int title_activity_quiz=0x7f0c0032;
+        public static final int title_activity_ratin=0x7f0c0033;
+        public static final int title_activity_resultat=0x7f0c0034;
+        public static final int title_activity_settings=0x7f0c0035;
+        public static final int titre=0x7f0c0036;
+        public static final int updated=0x7f0c0037;
+        public static final int wifi_connected=0x7f0c0038;
+        public static final int xml_error=0x7f0c0039;
     }
     public static final class style {
         /**  Customize your theme here. 

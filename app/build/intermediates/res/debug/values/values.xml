@@ -696,6 +696,7 @@
     <string name="title_activity_publicite">Publicite</string>
     <string name="title_activity_publicite_autre">Publicite</string>
     <string name="title_activity_question">Quizz</string>
+    <string name="title_activity_quiz">Questions</string>
     <string name="title_activity_ratin">Meilleurs Scores</string>
     <string name="title_activity_resultat">Resultats</string>
     <!-- From: file:/C:/Users/ericzile/AndroidStudioProjects/CultureBandeDessine/app/src/main/res/values/strings_activity_settings.xml -->

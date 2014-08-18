@@ -4,9 +4,28 @@
     android:layout_height="match_parent"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingTop="50dp"
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.sydeem.girafe.culturebandedessine.ResultatActivity">
+    <RatingBar
+        android:id="@+id/ratingBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:layout_marginLeft="40dp"
+        android:stepSize="1.0"
+        android:rating="0.0"/>
 
+    <TextView
+        android:layout_below="@+id/ratingBar1"
+        android:id="@+id/textResult"
+        android:textColor="@color/rouge"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:gravity="center_horizontal"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </RelativeLayout>

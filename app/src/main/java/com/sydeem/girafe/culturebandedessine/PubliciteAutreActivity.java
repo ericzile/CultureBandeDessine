@@ -40,6 +40,11 @@ public class PubliciteAutreActivity extends ActionBarActivity {
 
     public void resultatClick (View view){
         Intent i = new Intent(getApplicationContext(), ResultatActivity.class);
+        //get score
+        Bundle b = getIntent().getExtras();
+        int score= b.getInt("score");
+        b.putInt("score", score); //Your score
+        i.putExtras(b); //Put your score to your next Intent
         startActivity(i);
     }
 }

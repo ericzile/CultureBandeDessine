@@ -66,12 +66,13 @@
     <string name="title_activity_publicite_autre">Publicite</string>
     <string name="title_activity_resultat">Resultats</string>
 
-    <!--  NetworkActivity -->
+    <!-- NetworkActivity -->
     <string name="page_title">Newest StackOverflow questions tagged \'android\'</string>
     <string name="updated">Last updated:</string>
     <string name="lost_connection">Lost connection.</string>
     <string name="wifi_connected">Wi-Fi reconnected.</string>
     <string name="connection_error">Unable to load content. Check your network connection.</string>
     <string name="xml_error">Error parsing XML.</string>
+    <string name="title_activity_quiz">Questions</string>
 
 </resources>

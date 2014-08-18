@@ -56,6 +56,10 @@
             android:label="@string/title_activity_resultat"
             android:uiOptions="splitActionBarWhenNarrow" >
         </activity>
+        <activity
+            android:name="com.sydeem.girafe.culturebandedessine.QuizActivity"
+            android:label="@string/title_activity_quiz" >
+        </activity>
     </application>
 
 </manifest>
