@@ -44,7 +44,7 @@ public class ListeActivity extends ActionBarActivity {
     // Movies json url
     private static final String url = "http://api.androidhive.info/json/movies.json";
     private ProgressDialog pDialog;
-    private List<Movie> movieList = new ArrayList<Movie>();
+    public static List<Movie> movieList = new ArrayList<Movie>();
     private ListView listView;
     private CustomListAdapter adapter;
     private Intent detail = null;
@@ -82,6 +82,7 @@ public class ListeActivity extends ActionBarActivity {
                 detail.putExtra("image",movieList.get(position).getThumbnailUrl());
                 detail.putExtra("releaseYear",movieList.get(position).getYear());
                 detail.putExtra("rating",movieList.get(position).getRating());
+                detail.putExtra("position",position);
                 startActivity(detail);
             }
         });

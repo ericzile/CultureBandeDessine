@@ -30,10 +30,11 @@ public class QuestionActivity extends ActionBarActivity {
         genreTextView = (TextView)findViewById(R.id.genre);
         titleTextView = (TextView)findViewById(R.id.titre_quiz);
         NetworkImageView thumbNail = (NetworkImageView)findViewById(R.id.barner);
+        int position;
 
         if (getIntent().getExtras() != null){
             if(getIntent().getExtras().containsKey("title"))
-                titleTextView.setText(Html.fromHtml(getIntent().getExtras().getString("title")));
+                titleTextView.setText(getIntent().getExtras().getString("title"));
 
            /* if(getIntent().getExtras().containsKey("releaseYear"))
                 genreTextView.setText(String.valueOf(getIntent().getExtras().getString("releaseYear")));*/
